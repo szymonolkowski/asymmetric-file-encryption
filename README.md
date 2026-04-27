@@ -24,16 +24,16 @@ Application for secure file encryption using asymmetric cryptography.
 │   └── private/            # Generated private keys
 ├── src/                    # Main source code of the application
 │   ├── main.py             # Entry point script to launch the GUI
-[cite_start]│   ├── gui/                # User interface code using Flet
+│   ├── gui/                # User interface code using Flet
 │   │   ├── app.py          # Main application window
 │   │   └── components.py   # Reusable UI elements (buttons, inputs)
 │   ├── crypto/             # Core cryptographic logic
-[cite_start]│   │   ├── asymmetric.py   # Asymmetric algorithms operations
-[cite_start]│   │   ├── symmetric.py    # Symmetric algorithms and block modes 
-[cite_start]│   │   └── key_manager.py  # Key generation and formatting
+│   │   ├── asymmetric.py   # Asymmetric algorithms operations
+│   │   ├── symmetric.py    # Symmetric algorithms and block modes 
+│   │   └── key_manager.py  # Key generation and formatting
 │   └── utils/              # Helper functions
-[cite_start]│       └── file_handler.py # File I/O and metadata formatting logic
-[cite_start]├── tests/                  # Unit tests for encryption and decryption flow 
+│       └── file_handler.py # File I/O and metadata formatting logic
+├── tests/                  # Unit tests for encryption and decryption flow 
 ├── .gitignore              # Files excluded from version control (e.g., keys/)
 ├── requirements.txt        # Project dependencies (flet, cryptography)
 └── README.md               # Project overview and setup instructions
