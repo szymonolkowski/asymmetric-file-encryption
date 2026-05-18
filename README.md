@@ -6,6 +6,9 @@
 # Asymmetric File Encryptor
 Application for secure file encryption using asymmetric cryptography.
 
+# Documentation
+Link to final [documentation](https://docs.google.com/document/d/1tlQdcBBjijv7PnZh4wpUIsMbS_TgRNNa50imTdVbVFc/edit?usp=sharing)
+
 ## Programming Environment
 
 | Element | Selected Technology | Reason for selection |
