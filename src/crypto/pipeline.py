@@ -1,7 +1,6 @@
-from asymmetric import RSAHandler
-from symmetric import FileEncryptor
+from .asymmetric import RSAHandler
+from .symmetric import FileEncryptor
 
-# ... (tutaj reszta Twojego kodu bez zmian: def encrypt_file_hybrid...)
 
 def encrypt_file_hybrid(input_path: str, public_key_path: str, output_safe_path: str):
     with open(input_path, 'rb') as input_file:
