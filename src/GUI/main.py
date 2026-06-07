@@ -10,9 +10,9 @@ def main(page: ft.Page):
 
     # Inicjalizacja klas
     gui = AppGUI()
-    page.services.append(gui.file_picker) # File picker jest serwisem w nowszych wersjach Flet
+    page.services.append(gui.file_picker) 
     
-    # Przekazujemy GUI do logiki, aby mogła obsługiwać przyciski
+    # Przekazujemy GUI do logiki
     logic = AppLogic(page, gui)
 
     # Zbudowanie widoku na podstawie danych z GUI
